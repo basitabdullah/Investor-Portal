@@ -1,0 +1,53 @@
+.sidebarContainer {
+  position: relative;
+  background-color: #319795;
+  color: white;
+  padding: 10px;
+  transition: 0.3s all ease;
+  
+  
+  @media (max-width: 770px) {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+   
+  }
+ 
+
+  .hamburger-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 13px;
+  }
+  ul {
+    a {
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+    }
+  }
+
+
+  .anchors{
+    margin-top: 10rem;
+    .anchor {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 30px;
+     
+    }
+  }
+ 
+}

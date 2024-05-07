@@ -1,0 +1,78 @@
+.recharts-legend-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.legendsContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    @media (max-width: 675px) {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .clrBox {
+      width: 15px;
+      height: 15px;
+      background-color: #75fd36;
+      border-radius: 4px;
+    }
+  }
+}
+
+.customTooltipBar {
+  background-color: rgba(255, 255, 255, 0.462);
+  width: 200px;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 10px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: bold;
+
+    .label1 {
+      color: #fc4bff;
+    }
+    .label2 {
+      color: #4bffdf;
+    }
+    .label3 {
+      color: #f9075e;
+    }
+    .label4 {
+      color: #4fd18b;
+    }
+    .label5 {
+      color: #fab400;
+    }
+
+    .val1 {
+      color: #fc4bff;
+    }
+     .val2 {
+      color: #3656fd;
+    }
+     .val3 {
+      color: #FFAE10;
+    }
+     .val4 {
+      color: #37FA17;
+    }
+  }
+}

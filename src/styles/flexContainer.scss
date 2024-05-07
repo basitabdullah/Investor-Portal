@@ -1,0 +1,21 @@
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 4.5rem);
+  overflow: hidden;
+
+  .conatainerDashboard {
+    padding: 20px;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+
+
+}
+

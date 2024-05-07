@@ -1,0 +1,115 @@
+.topContainer {
+  overflow-y: scroll;
+  padding: 20px;
+  width: 100%;
+
+  .topBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    margin: 20px;
+    gap: 20px;
+
+    .download,
+    .view,
+    .investBtn {
+      padding: 8px 10px;
+      width: max-content;
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 5px;
+    }
+
+    .download {
+      background-color: #38ff4c;
+      font-size: 25px;
+      color: rgb(248, 248, 248);
+    }
+
+    .view {
+      border: 1px solid #0e9ff1;
+      color: #0e9ff1;
+    }
+
+    .investBtn {
+      color: white;
+      background-color: #319795;
+    }
+  }
+
+  .back {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    svg {
+      font-size: 40px;
+      cursor: pointer;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+
+  .calenderContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+    .calender {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      input {
+        background-color: rgb(237, 237, 237);
+        padding: 5px 12px;
+        border-radius: 5px;
+        outline: none;
+        width: max-content;
+      }
+    }
+
+    .zoom {
+      background-color: rgb(237, 237, 237);
+      padding: 5px 12px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      width: max-content;
+
+      .reset {
+        cursor: pointer;
+
+        &:hover {
+          color: rgb(231, 37, 37);
+        }
+      }
+      svg {
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover {
+          color: green;
+        }
+      }
+    }
+  }
+
+  .chart {
+    margin: 3rem;
+    width: 90%;
+    height: 80%;
+    background-color: #ffe27a26;
+    padding: 30px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}

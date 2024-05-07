@@ -1,0 +1,88 @@
+.quarterChart {
+  width: 150px;
+  height: 120px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    background-color: greenyellow;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: black;
+      justify-content: center;
+
+      .qnumber {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(56, 56, 56);
+      }
+      .amt {
+        font-size: 10px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        color: rgb(56, 56, 56);
+      }
+    }
+    &.one {
+      width: 105px;
+      height: 105px;
+      top: -6px;
+      left: -9px;
+      background-image: radial-gradient(
+        farthest-corner circle at 50% 50% in oklab,
+        rgb(100% 100% 100%) 0%,
+        oklch(80% 0.27 94) 100%
+      );
+    }
+
+    &.two {
+      width: 80px;
+      height: 80px;
+      top: 67px;
+      left: 25px;
+      background-image: radial-gradient(
+        farthest-corner circle at 50% 50% in oklab,
+        rgb(100% 100% 100%) 0%,
+        oklch(66% 0.4 160 / 94%) 100%
+      );
+    }
+
+    &.three {
+      width: 75px;
+      height: 75px;
+      top: 6px;
+      left: 72px;
+      background-image: radial-gradient(
+        farthest-corner circle at 50% 50% in oklab,
+        rgb(100% 100% 100%) 0%,
+        oklch(41% 0.38 246 / 94%) 100%
+      );
+    }
+
+    &.four {
+      width: 60px;
+      height: 60px;
+      top: 70px;
+      left: 88px;
+      background-image: radial-gradient(
+        farthest-corner circle at 50% 50% in oklab,
+        rgb(100% 100% 100%) 0%,
+        oklch(66% 0.4 9 / 94%) 100%
+      );
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.customTooltipLine {
+  background-color: #666bff70;
+  width: 200px;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 10px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 400;
+    .lineVal1 {
+      color: white;
+    }
+    .lineVal2 {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}

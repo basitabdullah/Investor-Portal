@@ -1,0 +1,60 @@
+.bilegendsContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-size: 11px;
+  font-weight: 400;
+
+  .biLegends {
+    display: flex;
+    margin-left: 30px;
+
+    .biItem {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      .biClrBox {
+        svg {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+.customTooltipBiaxial {
+  background-color: rgba(255, 255, 255, 0.462);
+  width: 200px;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 10px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 400;
+    .lineVal1 {
+      color: white;
+    }
+    .lineVal2 {
+      color: #57dacc;
+      font-weight: bold;
+    }
+    .lineVal3 {
+      color: #FF5F51;
+      font-weight: bold;
+    }
+    .lineVal4 {
+      color: #F6A300;
+      font-weight: bold;
+    }
+  }
+}

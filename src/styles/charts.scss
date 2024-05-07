@@ -1,0 +1,191 @@
+.chartsContainer {
+  margin: 10px;
+  .upperCharts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+
+    @media (max-width: 1150px) {
+      flex-direction: column;
+      width: 100%;
+    }
+    .bar {
+      width: 100%;
+      background-color: rgba(66, 255, 251, 0.07);
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 55vh;
+
+      .topBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+        h5 {
+          font-weight: 400;
+          font-size: 19px;
+        }
+        a {
+          p {
+            font-size: 15px;
+            font-weight: bold;
+            color: rgba(49, 151, 149, 1);
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .line {
+      min-width: 40%;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 55vh;
+
+      background-color: rgba(255, 226, 122, 0.15);
+      .topBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+        h5 {
+          font-weight: 400;
+          font-size: 19px;
+        }
+
+        p {
+          font-size: 15px;
+          font-weight: bold;
+          color: rgba(49, 151, 149, 1);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .lowerCharts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 60px;
+    @media (max-width: 1150px) {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .bar {
+      width: 100%;
+      background-color: rgba(54, 86, 253, 0.06);
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 55vh;
+
+      flex-direction: column;
+
+      .topBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+        h5 {
+          font-weight: 400;
+          font-size: 19px;
+        }
+
+        p {
+          font-size: 15px;
+          font-weight: bold;
+          color: rgba(49, 151, 149, 1);
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .line {
+      min-width: 40%;
+      background-color: rgba(255, 0, 153, 0.05);
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 55vh;
+
+      flex-direction: column;
+
+      .topBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+        h5 {
+          font-weight: 400;
+          font-size: 19px;
+        }
+
+        p {
+          font-size: 15px;
+          font-weight: bold;
+          color: rgba(49, 151, 149, 1);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .pieChart {
+    width: 100%;
+    background-color: rgba(118, 84, 255, 0.08);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    flex-direction: column;
+
+    .details {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      text-decoration: underline;
+      font-size: 15px;
+      font-weight: 500;
+      color: gray;
+      cursor: pointer;
+    }
+    .topBar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 20px;
+      h5 {
+        font-weight: 400;
+        font-size: 19px;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgba(49, 151, 149, 1);
+        text-decoration: underline;
+      }
+    }
+  }
+}
